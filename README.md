@@ -1,109 +1,96 @@
-title
-  introduction to projection mapping
+# Introduction To Projection Mapping
 
-description
-  projection-mapping techniques allow you to paint with light on real world objects
+## Description
+Projection-mapping techniques allow you to paint with light on real-world objects.
 
-instructor
-  gabriel dunne
+## Instructor
+Gabriel Dunne http://gabrieldunne.com
 
-supplied hardware
-  monitors
-  projectors
-  cables
+## Supplied Hardware
+- Monitors
+- Projectors
+- Cables
 
-schedule
-  day 1 - lecture
-  day 2 - lecture + workshop
-  day 3 - workshop + lab  
+## Schedule
+- Day 1 - Lecture
+- Day 2 - Lecture + Workshop
+- Day 3 - Workshop + Lab  
 
-curriculum
-day 1
-  intro
-  light, space, and physics
-  light and sculpture
-  light in film and cinema, magic lanterns history/examples
-  opera, theater
-  architecture and light shows
-  light temperature
-  color theory
-  chiaroscuro
-  projection mapping examples
-    history
-    early examples
-    commercial examples
-    diy examples
-  form scanning
-  technology
-  toolkits
-  methods
-  demos
+## Curriculum
+### Day 1
+- Intro
+- Light, Space, And Physics
+- Light And Sculpture
+- Light In Film And Cinema, Magic Lanterns History/examples
+- Opera, Theater
+- Architecture And Light Shows
+- Light Temperature
+- Color Theory
+- Chiaroscuro
+- Projection Mapping Examples
+  -  History
+  -  Early Examples
+  -  Commercial Examples
+  - Diy Examples
+- Form Scanning
+- Technology
+- Toolkits
+- Methods
+- Demos
 
-day 2
-  mapping techniques
-  hand mapping 
-    shapes
-    images
-    masking
-    video
-  scanning
-    depth cameras kinect
-    greycode
-  form matching
-    focal lengths
-    aspect ratio
-    resolution
-    camera vertex shaders
-    perspective matrix transforms
-  tools
-    software
-    openframeworks
-    LPMT
-    vvvv
-    processing
-    lua-av
-    vdmx
-    syphon
-    more....
-  digital projectors
-    lcd vs dlp
-    how to film projections
-    lenses
-    focal length in glass vs. software
-  software
-    processing
-    html5/webgl
-    openframeworks
-    LPMT
-    vvvv
-    processing
-    lua-av
-    vdmx
-    syphon
-    max/jitter
-    touchdesigner
-    cinder
-    hv-a/lpmt
-    mapamok
-    structured-light
-    YCAM
-    dynamapper
-    more...
-  demo
-    mapping + scanning with c++/openFrameworks
+### Day 2
+- Mapping Techniques
+- Hand Mapping 
+  - Shapes
+  - Images
+  - Masking
+  - Video
+- Scanning
+  - Depth Cameras Kinect
+  - Greycode
+- Form Matching
+  - Focal Lengths
+  - Aspect Ratio
+  - Resolution
+  - Camera Vertex Shaders
+  - Perspective Matrix Transforms
+- Digital Projectors
+  - Lcd Vs Dlp
+  - How To Film Projections
+  - Lenses
+  - Focal Length In Glass Vs. Software
+- Software
+  - Processing
+  - HTML5/WebGL
+  - Openframeworks
+  - Lpmt
+  - vvvv
+  - Processing
+  - lua-av
+  - Vdmx
+  - Syphon
+  - Max/MSP + Jitter
+  - Touch Designer
+  - Cinder
+  - LPMT
+  - Mapamok
+  - Structured-light
+  - Ycam
+  - Dynamapper
+  - More...
+- Demo
+- Mapping + Scanning Workshop
 
-day 3
-  workshop
-    mapping and scanning with c++/openFrameworks
-  open lab
+### Day 3
+- Mapping And Scanning Workshop (cont)
+- Open Lab
 
-
-references
-  https://github.com/openframeworks/openFrameworks
-  https://code.google.com/p/structured-light/
-  https://github.com/YCAMInterlab/ProCamToolkit
-  https://github.com/YCAMInterlab/ProCamToolkit/wiki/mapamok-(English)
-  http://createdigitalmotion.com/2011/01/free-projection-mapping-with-openframeworks/
-  http://projection-mapping.org/category/tools/
-  http://hv-a.com/lpmt/
-  http://dynamapper.net/
+## References
+- https://github.com/openframeworks/openframeworks
+- https://code.google.com/p/structured-light/
+- https://github.com/ycaminterlab/procamtoolkit
+- https://github.com/ycaminterlab/procamtoolkit/wiki/mapamok-(english)
+- http://createdigitalmotion.com/2011/01/free-projection-mapping-with-openframeworks/
+- http://projection-mapping.org/category/tools/
+- http://hv-a.com/lpmt/
+- http://dynamapper.net/
