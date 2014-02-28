@@ -45,21 +45,23 @@ Gabriel Dunne http://gabrieldunne.com
   - Images
   - Masking
   - Video
-- Scanning
-  - Depth Cameras Kinect
+- Form Scanning
+  - Depth
+  - Structured Light
   - Greycode
+  - Point Clounds
 - Form Matching
   - Focal Lengths
   - Aspect Ratio
   - Resolution
-  - Camera Vertex Shaders
+  - View Vertex Shaders
   - Perspective Matrix Transforms
 - Digital Projectors
   - Lcd Vs Dlp
   - How To Film Projections
   - Lenses
   - Focal Length In Glass Vs. Software
-- Software
+- Software Examples
   - Processing
   - HTML5/WebGL
   - Openframeworks
@@ -79,10 +81,10 @@ Gabriel Dunne http://gabrieldunne.com
   - Dynamapper
   - More...
 - Demo
-- Mapping + Scanning Workshop
+- Mapping / Scanning Workshop
 
 ### Day 3
-- Mapping And Scanning Workshop (cont)
+- Mapping / Scanning Workshop (cont)
 - Open Lab
 
 ## References
