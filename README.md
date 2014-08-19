@@ -164,6 +164,7 @@ Using this hand-mapping technique, we can draw a series of rectangles that are h
   By manipulating a mesh, we are effectively interleaving form and software geometry.
   
 [Mesh Mapping Example in OpenFrameworks](https://github.com/quilime/of-meshMappingExample)
+[Instructable](http://www.instructables.com/id/Projection-Mapped-Sculpture-with-OpenFrameworks-an/)
 
 
 
