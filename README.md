@@ -43,7 +43,7 @@ Gabriel Dunne http://gabrieldunne.com
 - Architecture And Light Shows
 - Light Temperature
 - Color Theory
-- Chiaroscuro
+- Chiaroscuro [[1]](http://en.wikipedia.org/wiki/Chiaroscuro)
 - Tims Vermeer
 - Projection Mapping Examples
   -  History
