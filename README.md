@@ -1,4 +1,21 @@
-# Introduction To Projection Mapping
+# Projection Mapping
+
+Gray Area Creative Code Immersive, 2014
+
+Times: 
+  6 - 9pm, Tue Aug 19
+  6 - 9pm, Thur Aug 21
+  12 - 6pm, Sat Aug 23
+
+Location:
+  Gray Area
+  2665 Mission St
+  San Francisco, CA 94110
+
+Instructor: Gabriel Dunne
+Contact: gabe@gabrieldunne.com
+
+
 
 ## Description
 Projection-mapping techniques allow you to paint with light on real-world objects.
@@ -27,6 +44,7 @@ Gabriel Dunne http://gabrieldunne.com
 - Light Temperature
 - Color Theory
 - Chiaroscuro
+- Tims Vermeer
 - Projection Mapping Examples
   -  History
   -  Early Examples
@@ -37,6 +55,30 @@ Gabriel Dunne http://gabrieldunne.com
 - Toolkits
 - Methods
 - Demos
+- Software/Tookit Examples
+  - Processing
+  - HTML5/WebGL
+  - Openframeworks
+  - Lpmt
+  - vvvv
+  - Processing
+  - lua-av
+  - Vdmx
+  - Syphon
+  - Max/MSP + Jitter
+  - Touch Designer
+  - Cinder
+  - LPMT
+  - Mapamok
+  - madmapper
+  - Structured-light
+  - Ycam
+  - Dynamapper
+  - More...- 
+
+notes:
+	demos
+
 
 ### Day 2
 - Mapping Techniques
@@ -57,33 +99,19 @@ Gabriel Dunne http://gabrieldunne.com
   - View Vertex Shaders
   - Perspective Matrix Transforms
 - Digital Projectors
-  - Lcd Vs Dlp
+  - Lcd Vs DLP
   - How To Film Projections
   - Lenses
   - Focal Length In Glass Vs. Software
-- Software Examples
-  - Processing
-  - HTML5/WebGL
-  - Openframeworks
-  - Lpmt
-  - vvvv
-  - Processing
-  - lua-av
-  - Vdmx
-  - Syphon
-  - Max/MSP + Jitter
-  - Touch Designer
-  - Cinder
-  - LPMT
-  - Mapamok
-  - Structured-light
-  - Ycam
-  - Dynamapper
-  - More...
-- Demo
 - Mapping / Scanning Workshop
+- Propose challenge for saturday
+
+- identify narrative, and technical execution
+
 
 ### Day 3
+- Chose your own adventure in projection mapping land
+- Discuss concepts for mapping
 - Mapping / Scanning Workshop (cont)
 - Open Lab
 
