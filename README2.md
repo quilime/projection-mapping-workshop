@@ -24,7 +24,7 @@ Gabriel Dunne
 gabe@gabrieldunne.com  
 [gabrieldunne.com](http://gabrieldunne.com)
 
-Selected works that utilize projection mapping in some way:
+Selected works by the instructor that utilize projection mapping in some way:
 
   - [Monad](http://gabrieldunne.com/monad/)
   - [Icosi](http://gabrieldunne.com/icosi/)
@@ -32,20 +32,19 @@ Selected works that utilize projection mapping in some way:
   - [Vatica Dahlia](http://gabrieldunne.com/vaticadahlia/)
   - [Tetra Field](http://gabrieldunne.com/tetra-field/)
 
-## Curriculum
-### Day 1, Aug 19 2014, 6-9pm 
 
-History
+### Technology
+
+Projection mapping is an effect of [Chiaroscuro](http://en.wikipedia.org/wiki/Chiaroscuro), which is the art "use of contrasts of light to achieve a sense of volume in modelling three-dimensional objects and figures."
 
 
-### Selected Projection Mapping Examples
+### Examples
 
 
 Pablo Valbuena 
 
   - [Augmented Sculpture](http://www.pablovalbuena.com/selectedwork/augmented-sculpture-v1/)
   - [Time Tiling](http://www.pablovalbuena.com/selectedwork/time-tiling-stuk/)    
-
 Dev Harlan
 
   - [Works](http://www.devharlan.com/doku.php)
@@ -54,6 +53,11 @@ AntiVJ
 
   - [The Ark](http://antivj.com)
   - [EYJAFJALLAJÖKULL](http://antivj.com/empac/index.htm)
+
+Obscura Digital
+
+  - [Exploratorium](http://obscuradigital.com/work/emergence-exploratorium/)
+  - [More](http://obscuradigital.com/?filter=video-architectural-mapping)
 
 Bot & Dolly 
 
@@ -69,41 +73,22 @@ Masaru Ozaki
 
 More...
 
+ - [Northern Ballet](http://balletnews.co.uk/northern-ballets-cleopatra-tour-projection-mapping/)
+ - [Tims Vermeer](https://www.youtube.com/watch?v=CS_HUWs9c8c)
  - [ProjectionMapping.org](http://projection-mapping.org/)
  - [Creative Applications Projection-Mapping Tag](http://www.creativeapplications.net/tag/projection-mapping/)
  - [Wake Me Up - Jack Conte](https://www.youtube.com/watch?v=EfDfdyBldz0) 
  - [Cubepix](http://vimeo.com/58701565)
  - [Lasers and LeapMotion](http://vimeo.com/66358726)
  - [Lasers and Bubble Tracking](http://vimeo.com/66367827)
-  
+ - [Light and Bottle](https://www.youtube.com/watch?v=7ZHef-hAvOM)
 
-
-
-### Technology
-
-- Light In Film And Cinema, Magic Lanterns examples
-- Opera, Theater
-- Chiaroscuro
-- Vermerr, Tims Vermeer
-- Architecture And Light Shows
-- Color Theory, Lighting with color, Light Temperature
-- Projectors
-- 3D Modeling
-- Scanning
-- Form Creation
-- Interleaving Form and Software Geometry
-- Methods of getting form:
-  - Form Scanning
-  - Manual
-  - Generative
 
 ### Software
 
-Any software is usable if it can create geometry or map distort surfaces.
+Any software is usable if it can create, distort, and texture geometry and/or flat planes.
 
-[2d example of using a paint program](https://www.youtube.com/watch?v=KKsKwHbuu3M)
-
-[3d example w/Vert Fudging]
+#### Code Frameworks
 
   - [Processing](http://processing.org)
     - [First Toolkit](github)  
@@ -112,8 +97,10 @@ Any software is usable if it can create geometry or map distort surfaces.
   	- [Mapamok](https://github.com/YCAMInterlab/ProCamToolkit/wiki/mapamok-(English)
   	- [Ycam ProCam Toolkit](http://createdigitalmotion.com/2012/03/projector-and-camera-a-little-closer-new-magical-mapping-tools-3d-scanning-and-more/)
   	- [Raspberry Pi]()
+
+#### Software Packages
+
   - [Touch Designer](http://www.derivative.ca/)  
-	- plugins
   - [Lpmt](http://hv-a.com/lpmt/)
   - [vvvv](http://vvvv.org/)
   - [Vdmx](http://vidvox.net/)
@@ -123,57 +110,82 @@ Any software is usable if it can create geometry or map distort surfaces.
   - [madmapper](http://www.madmapper.com/)
   - [Structured-light](http://en.wikipedia.org/wiki/Structured-light_3D_scanner)
   - [Dynamapper](http://dynamapper.net/)
+  - [Painting With Light](http://pwl.bigfug.com/)
+  - [VPT](http://hcgilje.wordpress.com/vpt/)
+  - [MapMap](http://mapmap.info/tiki-index.php)
+  - [Mesh Warp Server](http://meshwarpserver.org/)
  
 #### Automatic Calibration
 
   - [TightLight](http://createdigitalmotion.com/2013/08/tightlight-automatic-3d-mapping-for-anything-touchdesigner-arduino/) TouchDesigner, Arduino
   - [Automatic Projector Calibration with Embedded Light Sensors](https://www.youtube.com/watch?v=XgrGjJUBF_I)
+  
+#### Camera Vision
+
+  - [Structured Light](http://en.wikipedia.org/wiki/Structured-light_3D_scanner)
+  - [Structured Light Instructable](http://www.instructables.com/id/Structured-Light-3D-Scanning/)
+    
 
 
-## Demo
+## Day 1, Aug 19 2014, 6-9pm 
 
+### Quad Mapping Workshop
 
+In its simplest form, the light cast from a typical project is typically a rectangle. 
 
+A straightforward way to map graphics to a surface is to draw to a quad, and "corner pin" the quad to match the perspective of the projected image.
 
-
-### Aug 21 2014, 6-9pm 
-
-- Mapping Techniques
-- Hand Mapping 
-  - Shapes
+Using this hand-mapping technique, we can draw a series of rectangles that are hand-mapped onto the scene. This is great for
+    
+  - Simple Shapes
   - Images
-  - Masking
   - Video
-- Form Scanning
-  - Depth
-  - Structured Light
-  - Greycode
-  - Point Clounds
-- Form Matching
-  - Focal Lengths
-  - Aspect Ratio
-  - Resolution
-  - View Vertex Shaders
-  - Perspective Matrix Transforms
-- Digital Projectors
-  - Lcd Vs DLP
-  - How To Film Projections
-  - Lenses
-  - Focal Length In Glass Vs. Software
-- Mapping / Scanning Workshop
+
+  [Marcin Ignac](http://marcinignac.com) has an example for Processing, aptly named [Projected Quads]([Projected Quads](http://marcinignac.com/blog/projectedquads-source-code/). Try putting your own graphics in Processing's draw loop, and modifying the projected quads to match an object.
+
+  [Example for Processing](http://marcinignac.com/blog/projectedquads-source-code/ProjectedQuadsTest.zip)
+
+  Key Commands:
+
+    'd' toggle debug mode
+    'S' save settings
+    'L' load settings
+    '>' select next quad in debug mode
+    '<' select prev quad in debug mode
+    '1', '2', '3', '4' select one of selected quad's corners 
+    Arrow keys (left, right, up, down) move selected corner's position (you can also use mouse for that)
 
 
-*Challenge for Next Class*:
+  [Keystone](http://keystonep5.sourceforge.net/) is a Quad Mapping Library for Processing. Install by searching for 'Keystone' from the 'Import Library' Dialogue in Processing. Keystone works by creating offscreen buffer object that can be drawn to, and then quad mapping the result.
 
-  - Using the toolkit of your choice, consider architectural elements in the Theater for your own software mapping.
+  [Example for Processing](http://keystonep5.sourceforge.net/examples/CornerPin/CornerPin.pde)
+
+    'c' toggles calbration mode
+    'l' load layout
+    's' save layout
+
+
+## Day 2, Aug 21 2014, 6-9pm 
+
+### Mesh Mapping Workshop
+
+  By manipulating a mesh, we are effectively interleaving form and software geometry.
+
+  - [Mesh Mapping Example](https://github.com/quilime/of-meshMappingExample)
+  - [Mapamok](https://github.com/YCAMInterlab/ProCamToolkit/wiki/mapamok-(English))
+
+  .... Examples to come ....
+
+
+***CLASS CHALLENGE!  . . .***
+
+  - Using the toolkit of your choice, consider an architectural element in the Theater for your own software mapping.
   - Identify a narrative, and technical execution.
   - Plan to balance your the time spent modeling, content creation, projector installation, and form matching.
-  - Group work is encouraged. Divide up tasks, share methods amongst teams. 
+  - Group work is encouraged. Divide up tasks, share amongst teams. 
   
 
+## Day 3, Aug 23 2014, 12-9pm
 
-### Day 3, Aug 23 2014, 12-9pm
-
-- Mapping / Scanning Workshop (cont)
-- Chose your own adventure in projection mapping land
+Claim an architectural element of the Gray Area Theater for you or your group, and map it using the framework of your choice! Group work is encouraged. 
 
