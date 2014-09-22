@@ -1,5 +1,7 @@
 /**
  * This is a simple example of how to use the Keystone library.
+ * Download and install the Keystone library from this link: 
+ * http://keystonep5.sourceforge.net/
  *
  * To use this example in the real world, you need a projector
  * and a surface you want to project your Processing sketch onto.
@@ -16,6 +18,9 @@
  * less pixel resolution, depending on your projector and how
  * many surfaces you want to map. 
  */
+ 
+import javax.media.opengl.GL2;
+GL2 gl;
 
 import deadpixel.keystone.*;
 
@@ -27,7 +32,9 @@ PGraphics offscreen;
 void setup() {
   // Keystone will only work with P3D or OPENGL renderers, 
   // since it relies on texture mapping to deform
-  size(800, 600, P3D);
+  size(800, 600, OPENGL);
+  
+  gl = ((PJOGL)beginPGL()).gl.getGL2();
 
   ks = new Keystone(this);
   surface = ks.createCornerPinSurface(400, 300, 20);
