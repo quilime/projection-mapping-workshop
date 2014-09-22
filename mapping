@@ -1,3 +1,11 @@
+TightLight 
+  http://createdigitalmotion.com/2013/08/tightlight-automatic-3d-mapping-for-anything-touchdesigner-arduino/) TouchDesigner, Arduino
+Automatic Projector Calibration with Embedded Light Sensors 
+  https://www.youtube.com/watch?v=XgrGjJUBF_I)
+Structured Light 
+  http://en.wikipedia.org/wiki/Structured-light_3D_scanner)
+Structured Light Instructable 
+  http://www.instructables.com/id/Structured-Light-3D-Scanning/)
 
 
 http://projection-mapping.org/
@@ -130,30 +138,6 @@ matt notes:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-projection mapped sculpture
-
-  computers:
-    http://www.newegg.com/Product/Product.aspx?Item=N82E16856176055
-    http://www.newegg.com/Product/Product.aspx?Item=N82E16856102052
-
-
-
-
-
-
 ## References
 - https://github.com/openframeworks/openframeworks
 - https://code.google.com/p/structured-light/
@@ -164,3 +148,14 @@ projection mapped sculpture
 - http://hv-a.com/lpmt/
 - http://dynamapper.net/
 
+
+
+http://www.creativeapplications.net/vvvv/continuum-projection-mapping-on-manege-by-stain-moscow-circle-of-light/
+
+http://www.creativeapplications.net/openframeworks/macrofilm-a-tangible-narrative-ribbon-by-pangenerator/
+http://www.creativeapplications.net/tag/projection-mapping/
+
+
+atmospheric scattering
+http://http.developer.nvidia.com/GPUGems2/gpugems2_chapter16.html
+https://www.shadertoy.com/view/lslXDr
