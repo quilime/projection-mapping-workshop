@@ -7,11 +7,10 @@ http://creativecode.io
 ### Description
 Projection-mapping techniques allow you to paint with projected light onto physical shapes.
 
-
 ### Meeting Times
-  6 - 9pm, Tue Aug 19  
-  6 - 9pm, Thur Aug 21  
-  12 - 6pm, Sat Aug 23  
+  6pm - 9pm, Tue  Aug 19  
+  6pm - 9pm, Thu  Aug 21  
+  12pm - 6pm, Sat  Aug 23  
 
 ### Location
   Gray Area  
