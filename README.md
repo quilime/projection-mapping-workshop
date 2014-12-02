@@ -1,4 +1,4 @@
-# Projection Mapping Workshop
+# Intro to Projection Mapping
 
 Projection-mapping techniques allow you use software to paint with projected light onto physical shapes. Projection mapping is an effect of [Chiaroscuro](http://en.wikipedia.org/wiki/Chiaroscuro), which is an art that "uses of contrasts of light to achieve a sense of volume in modelling three-dimensional objects and figures."
 
@@ -14,14 +14,10 @@ gabe@gabrieldunne.com
 - 2014 Fall, Gray Area Creative Code Immersive
 
 ## Meeting Times
-  6 - 9pm, Tue, Dec 2 2014
-  6 - 9pm, Thu, Dec 4 2014
-  12 - 4pm, Sat, Dec 6 2014
 
-## Location
-  Gray Area  
-  2665 Mission St  
-  San Francisco, CA 94110  
+- 6 - 9pm, Tue, Dec 2 2014
+- 6 - 9pm, Thu, Dec 4 2014
+- 12 - 4pm, Sat, Dec 6 2014
 
 ## Examples
 
