@@ -97,12 +97,10 @@ Any software is usable if it can create, distort, and texture geometry and/or fl
 #### Code Frameworks
 
   - [Processing](http://processing.org)
-    - [First Toolkit](github)  
-  - [Keystone](http://keystonep5.sourceforge.net/)  
   - [Openframeworks](http://Openframeworks.cc)
-    - [Mapamok](https://github.com/YCAMInterlab/ProCamToolkit/wiki/mapamok-(English)
+    - [Mapamok](https://github.com/YCAMInterlab/ProCamToolkit/wiki/mapamok-\(English\))
     - [Ycam ProCam Toolkit](http://createdigitalmotion.com/2012/03/projector-and-camera-a-little-closer-new-magical-mapping-tools-3d-scanning-and-more/)
-    - Raspberry Pi
+  - 
 
 #### Software Packages
 
@@ -130,21 +128,18 @@ Any software is usable if it can create, distort, and texture geometry and/or fl
     
 ====
 
-## Day 1, Aug 19 2014, 6-9pm 
+## Day 1
 
 ### Quad Mapping
 
-In its simplest form, the light cast from a typical project is typically a rectangle. 
-
-A straightforward way to map graphics to a surface is to draw to a quad, and "corner pin" the quad to match the perspective of the projected image.
-
-Using this hand-mapping technique, we can draw a series of rectangles that are hand-mapped onto the scene. This is great for:
+In its purest form, the light cast from a typical projector is a rectangle. Additionally, most content built for screens are rectangles. Therefore, a straightforward method of mapping graphics to a surface is to draw it in a quad, and "corner pin" the quad to match the perspective of the projected image. Using this hand-mapping technique, we can draw a series of rectangles that are aligned onto a space or object. This is great for:
     
-  - Simple Shapes
-  - Images
-  - Video
+  - Existing Images
+  - Existing Videos
+  - Emulation of Multiple Displays
+  - Placing "displays" of content where ever you like
 
-#### Processing  
+#### Using Processing  
 
 In the examples/ folder, you will find a few Processing sketches. One of which is an example that uses Projected Quads, based on a processing sketch by [Marcin Ignac](http://marcinignac.com/blog/projectedquads-source-code/). Navigate to the examples/ folder in this repo and open ProjectedQuadsGLShaders, for example. 
 
@@ -169,13 +164,19 @@ Key Commands
 
   [Demo of this sketch in action](http://vimeo.com/110955580), as used by Stephanie Sherriff for her "White Paintings" series.
 
+#### Exercise
+
+Load your own content into these sketches, and quad-map the content.
+
 ====
 
-## Day 2, Aug 21 2014, 6-9pm 
+## Day 2
 
 ### Mesh Mapping
 
-  By manipulating a mesh, we are effectively interleaving form and software geometry by
+  By manipulating a mesh, we are effectively interleaving form and software geometry. There is an addtional step of digitally modeling a 3D form, which can be done a variety of ways. You can use 3D modeling software, like [Sketchup](http://www.sketchup.com/) or [Rhinoceros 3D](http://www.rhino3d.com/), [Maya](http://www.autodesk.com/products/maya/overview), [Cinema4D](http://www.maxon.net/products/cinema-4d-studio/who-should-use-it.html), and etc.
+  
+Additionally there are a variety of methods to scan forms, using a depth camera, 2D camera vision, or 3D laser scanners. Even [DIY](http://makezine.com/projects/diy-3d-laser-scanner-using-arduino/) methods.
 
 #### OpenFrameworks  
   
@@ -190,7 +191,7 @@ Computer Vision techniques use matrix transformations to approzimate focal disto
 
 Mapamok is a module of ProCamToolkit used for for exploring projection mapping. It includes features for matching geometry to space using camera vision, rapid prototying with GLSL Shaders, and camera calibration tools. 
 
-### Manual Calibrated Optical Mapping with Mapamok
+### Optical Mapping with Mapamok
 
   [Download Mapamok](https://github.com/YCAMInterlab/ProCamToolkit/downloads)
 
@@ -198,9 +199,13 @@ Mapamok is a module of ProCamToolkit used for for exploring projection mapping. 
 
   Then, follow along with the [Mapamok Tutorial](https://github.com/YCAMInterlab/ProCamToolkit/wiki/mapamok-(English).
   
+#### Exercise
+
+Model 3D wirefrem, and align it to a physical shape via projection. Choose a simple elements such as a corner, or a window, or a doorway. Deconstruct your shape down to its component parts and try to use modeling primitives in a modular way.
+  
 ====
 
-## Day 3, Aug 23 2014, 12-6pm
+## Day 3
 
 ### Projectors
 
@@ -263,19 +268,14 @@ Cons:
 
 Projector References:
 
-
 - http://www.projectorcentral.com/
 - http://www.theprojectorpros.com/learn-s-learn-p-theater_dlp_vs_lcd_vs_lcos.htm
 - http://www.cnet.com/news/dlp-vs-lcd-vs-lcos-projector-tech-pros-and-cons/
 
+#### In-Class Lab
 
-
-### Workshop: 
-
-### ***CLASS CHALLENGE!  . . .***
-
-  - Use the toolkit of your choice to map the theater
   - Consider which architectural elements in the theater you want to map
+  - Use the toolkit of your choice to map the element
   - Use mesh mapping, quad mapping, CV methods, mapamok, or combination.
-  - Balance your the time spent modeling, content, installation, calibration
+  - Balance your the time spent modeling, content, calibration
   - Group work is encouraged! Divide up tasks, share amongst teams. 
