@@ -1,34 +1,29 @@
 # Projection Mapping Workshop
 
-Gray Area Creative Code Immersive, 2014
+Projection-mapping techniques allow you use software to paint with projected light onto physical shapes. Projection mapping is an effect of [Chiaroscuro](http://en.wikipedia.org/wiki/Chiaroscuro), which is an art that "uses of contrasts of light to achieve a sense of volume in modelling three-dimensional objects and figures."
 
-http://creativecode.io
-
-### Description
-Projection-mapping techniques allow you to paint with projected light onto physical shapes.
-
-### Meeting Times
-  6 - 9pm, Tue, Dec 2 2014
-  6 - 9pm, Thu, Dec 4 2014
-  12 - 4pm, Sat, Dec 6 2014
-
-### Location
-  Gray Area  
-  2665 Mission St  
-  San Francisco, CA 94110  
-
-### Instructor:
+## Instructor:
 
 Gabriel Dunne  
 gabe@gabrieldunne.com  
 [gabrieldunne.com](http://gabrieldunne.com)
 
-### What is Projection Mapping?
+## Workshop History
 
-Projection mapping is an effect of [Chiaroscuro](http://en.wikipedia.org/wiki/Chiaroscuro), which is an art that "uses of contrasts of light to achieve a sense of volume in modelling three-dimensional objects and figures."
+- 2014 Summer, Gray Area Creative Code Immersive
+- 2014 Fall, Gray Area Creative Code Immersive
 
+## Meeting Times
+  6 - 9pm, Tue, Dec 2 2014
+  6 - 9pm, Thu, Dec 4 2014
+  12 - 4pm, Sat, Dec 6 2014
 
-### Examples
+## Location
+  Gray Area  
+  2665 Mission St  
+  San Francisco, CA 94110  
+
+## Examples
 
 Pablo Valbuena 
 
@@ -90,11 +85,11 @@ More...
  - [Oblivion Making-Of](http://www.triplewidemedia.com/2013/04/projection-mapping-in-the-making-of-oblivion-starring-tom-cruise/)
 
 
-### Software
+## Software
 
 Any software is usable if it can create, distort, and texture geometry and/or flat planes.
 
-#### Code Frameworks
+### Code Frameworks
 
   - [Processing](http://processing.org)
   - [Openframeworks](http://Openframeworks.cc)
@@ -102,7 +97,7 @@ Any software is usable if it can create, distort, and texture geometry and/or fl
     - [Ycam ProCam Toolkit](http://createdigitalmotion.com/2012/03/projector-and-camera-a-little-closer-new-magical-mapping-tools-3d-scanning-and-more/)
   - 
 
-#### Software Packages
+### Software Packages
 
   - [Touch Designer](http://www.derivative.ca/)  
   - [Lpmt](http://hv-a.com/lpmt/)
@@ -120,7 +115,7 @@ Any software is usable if it can create, distort, and texture geometry and/or fl
   - [MapMap](http://mapmap.info/tiki-index.php)
   - [Mesh Warp Server](http://meshwarpserver.org/)
  
-#### Automatic Calibration
+### Automatic Calibration
 
   - [TightLight](http://createdigitalmotion.com/2013/08/tightlight-automatic-3d-mapping-for-anything-touchdesigner-arduino/) 
   - [Structured Light](http://en.wikipedia.org/wiki/Structured-light_3D_scanner)
