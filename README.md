@@ -7,11 +7,10 @@ http://creativecode.io
 ### Description
 Projection-mapping techniques allow you to paint with projected light onto physical shapes.
 
-
 ### Meeting Times
-  6 - 9pm, Tue Aug 19  
-  6 - 9pm, Thur Aug 21  
-  12 - 6pm, Sat Aug 23  
+  6 - 9pm, Tue, Dec 2 2014
+  6 - 9pm, Thu, Dec 4 2014
+  12 - 4pm, Sat, Dec 6 2014
 
 ### Location
   Gray Area  
@@ -24,13 +23,12 @@ Gabriel Dunne
 gabe@gabrieldunne.com  
 [gabrieldunne.com](http://gabrieldunne.com)
 
-### Technology
+### What is Projection Mapping?
 
-Projection mapping is an effect of [Chiaroscuro](http://en.wikipedia.org/wiki/Chiaroscuro), which is the art "use of contrasts of light to achieve a sense of volume in modelling three-dimensional objects and figures."
+Projection mapping is an effect of [Chiaroscuro](http://en.wikipedia.org/wiki/Chiaroscuro), which is an art that "uses of contrasts of light to achieve a sense of volume in modelling three-dimensional objects and figures."
 
 
 ### Examples
-
 
 Pablo Valbuena 
 
@@ -148,45 +146,41 @@ Using this hand-mapping technique, we can draw a series of rectangles that are h
 
 #### Processing  
 
-  [Marcin Ignac](http://marcinignac.com) has an example for Processing, aptly named [Projected Quads]([Projected Quads](http://marcinignac.com/blog/projectedquads-source-code/). Try putting your own graphics in Processing's draw loop, and modifying the projected quads to match an object.
+In the examples/ folder, you will find a few Processing sketches. One of which is an example that uses Projected Quads, based on a processing sketch by [Marcin Ignac](http://marcinignac.com/blog/projectedquads-source-code/). Navigate to the examples/ folder in this repo and open ProjectedQuadsGLShaders, for example. 
 
-  [Example for Processing](http://marcinignac.com/blog/projectedquads-source-code/ProjectedQuadsTest.zip)
+Features:
 
-  Key Commands:
+- Using OpenGL (hardware accellerated)
+- Live Video Textures
+- GLSL Shaders
+- Shader Uniforms are passed into the shaders- 
+- Live Shader Reloading
 
-    'd' toggle debug mode
-    'S' save settings
-    'L' load settings
-    '>' select next quad in debug mode
-    '<' select prev quad in debug mode
+Key Commands
+
+    'SPACE' toggle debug mode
+    's' save settings
+    'l' load settings
+    ',' select next quad in debug mode
+    '.' select prev quad in debug mode
     '1', '2', '3', '4' select one of selected quad's corners 
     Arrow keys (left, right, up, down) move selected corner's position (you can also use mouse for that)
 
-  [Keystone](http://keystonep5.sourceforge.net/) is a Quad Mapping Library for Processing. Install by searching for 'Keystone' from the 'Import Library' Dialogue in Processing. Keystone works by creating offscreen buffer object that can be drawn to, and then quad mapping the result.
 
-  [Example for Processing](http://keystonep5.sourceforge.net/examples/CornerPin/CornerPin.pde)
+  [Demo of this sketch in action](http://vimeo.com/110955580), as used by Stephanie Sherriff for her "White Paintings" series.
 
-    'c' toggles calbration mode
-    'l' load layout
-    's' save layout
-    
+====
+
+## Day 2, Aug 21 2014, 6-9pm 
 
 ### Mesh Mapping
 
-  By manipulating a mesh, we are effectively interleaving form and software geometry.
+  By manipulating a mesh, we are effectively interleaving form and software geometry by
 
 #### OpenFrameworks  
   
 - [Mesh Mapping Example in OpenFrameworks](https://github.com/quilime/of-meshMappingExample)
 - [Instructable](http://www.instructables.com/id/Projection-Mapped-Sculpture-with-OpenFrameworks-an/)
-
-
-
-====
-
-
-## Day 2, Aug 21 2014, 6-9pm 
-
 
 ### Computer Vision
 
@@ -195,8 +189,6 @@ Computer Vision techniques use matrix transformations to approzimate focal disto
 [ProCamToolkit](https://github.com/YCAMInterlab/ProCamToolkit/) is a modular toolkit developed with YCAM Interlab by Kyle Mcdonald, built with OpenFrameworks. It's collection software and code for openFrameworks aimed at making high level projector-camera calibration more accessible. 
 
 Mapamok is a module of ProCamToolkit used for for exploring projection mapping. It includes features for matching geometry to space using camera vision, rapid prototying with GLSL Shaders, and camera calibration tools. 
-
-
 
 ### Manual Calibrated Optical Mapping with Mapamok
 
@@ -278,28 +270,7 @@ Projector References:
 
 
 
-### Workshop: Quad Mapping with Processing (OpenGL)
-
-Navigate to the examples/ folder in this repo and open ProjectedQuadsGLShaders example. This example is based on the Quad Mapping tutorial from the first day, but includes Video and GLSL Shaders.
-
-Added Features
-
-- Ported to OpenGL
-- Live Video Textures
-- GLSL Shaders
-- Shader Uniforms are passed into the shaders- 
-- Live Shader Reloading
-
-Updated Key Commands
-
-    'SPACE' toggle debug mode
-    's' save settings
-    'l' load settings
-    ',' select next quad in debug mode
-    '.' select prev quad in debug mode
-    '1', '2', '3', '4' select one of selected quad's corners 
-    Arrow keys (left, right, up, down) move selected corner's position (you can also use mouse for that)
-
+### Workshop: 
 
 ### ***CLASS CHALLENGE!  . . .***
 
