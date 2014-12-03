@@ -4,9 +4,9 @@
   Add "GIF Animation" library from "Sketch > Import Library" 
     
   Keyboard:
-  - 'd' toggle debug mode
-  - 'S' save settings
-  - 'L' load settings
+  - 'SPACE' toggle debug mode
+  - 's' save settings
+  - 'l' load settings
   - '>' select next quad in debug mode
   - '<' select prev quad in debug mode
   - '1', '2', '3', '4' select one of selected quad's corners 

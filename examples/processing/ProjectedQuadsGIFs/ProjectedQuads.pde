@@ -215,25 +215,25 @@ class ProjectedQuads {
     if (key == '4') {
       selectedPoint = 3;
     }
-    if (key == '<') {
+    if (key == ',') {
       selectedQuad = (selectedQuad - 1 + quads.size()) % quads.size();
     }
-    if (key == '>') {
+    if (key == '.') {
       selectedQuad = (selectedQuad + 1) % quads.size();
     }
     
     //Shift + 's' to avoid accidental saving
-    if (key == 'S') {
+    if (key == 's') {
       projectedQuads.save(configFile);
     }
   
     //Shift + 'l' to avoid accidental loading
-    if (key == 'L') {
+    if (key == 'l') {
       projectedQuads.load(configFile);
     }
   
     //Toggle debug/design/setup mode
-    if (key == 'd') {
+    if (key == ' ') {
       projectedQuads.setDebugMode(!projectedQuads.getDebugMode());
     }
   }
