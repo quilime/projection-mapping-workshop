@@ -1,35 +1,25 @@
-# Projection Mapping Workshop
+# Intro to Projection Mapping
 
-Gray Area Creative Code Immersive, 2014
+Projection-mapping techniques allow you use software to paint with projected light onto physical shapes. Projection mapping is an effect of [Chiaroscuro](http://en.wikipedia.org/wiki/Chiaroscuro), which is an art that "uses of contrasts of light to achieve a sense of volume in modelling three-dimensional objects and figures."
 
-http://creativecode.io
-
-### Description
-Projection-mapping techniques allow you to paint with projected light onto physical shapes.
-
-### Meeting Times
-  6pm - 9pm, Tue  Aug 19  
-  6pm - 9pm, Thu  Aug 21  
-  12pm - 6pm, Sat  Aug 23  
-
-### Location
-  Gray Area  
-  2665 Mission St  
-  San Francisco, CA 94110  
-
-### Instructor:
+## Instructor:
 
 Gabriel Dunne  
 gabe@gabrieldunne.com  
 [gabrieldunne.com](http://gabrieldunne.com)
 
-### Technology
+## Workshop History
 
-Projection mapping is an effect of [Chiaroscuro](http://en.wikipedia.org/wiki/Chiaroscuro), which is the art "use of contrasts of light to achieve a sense of volume in modelling three-dimensional objects and figures."
+- 2014 Summer, Gray Area Creative Code Immersive
+- 2014 Fall, Gray Area Creative Code Immersive
 
+## Meeting Times
 
-### Examples
+- 6 - 9pm, Tue, Dec 2 2014
+- 6 - 9pm, Thu, Dec 4 2014
+- 12 - 4pm, Sat, Dec 6 2014
 
+## Examples
 
 Pablo Valbuena 
 
@@ -91,21 +81,19 @@ More...
  - [Oblivion Making-Of](http://www.triplewidemedia.com/2013/04/projection-mapping-in-the-making-of-oblivion-starring-tom-cruise/)
 
 
-### Software
+## Software
 
 Any software is usable if it can create, distort, and texture geometry and/or flat planes.
 
-#### Code Frameworks
+### Code Frameworks
 
   - [Processing](http://processing.org)
-    - [First Toolkit](github)  
-  - [Keystone](http://keystonep5.sourceforge.net/)  
   - [Openframeworks](http://Openframeworks.cc)
-    - [Mapamok](https://github.com/YCAMInterlab/ProCamToolkit/wiki/mapamok-(English)
+    - [Mapamok](https://github.com/YCAMInterlab/ProCamToolkit/wiki/mapamok-\(English\))
     - [Ycam ProCam Toolkit](http://createdigitalmotion.com/2012/03/projector-and-camera-a-little-closer-new-magical-mapping-tools-3d-scanning-and-more/)
-    - Raspberry Pi
+  - 
 
-#### Software Packages
+### Software Packages
 
   - [Touch Designer](http://www.derivative.ca/)  
   - [Lpmt](http://hv-a.com/lpmt/)
@@ -123,7 +111,7 @@ Any software is usable if it can create, distort, and texture geometry and/or fl
   - [MapMap](http://mapmap.info/tiki-index.php)
   - [Mesh Warp Server](http://meshwarpserver.org/)
  
-#### Automatic Calibration
+### Automatic Calibration
 
   - [TightLight](http://createdigitalmotion.com/2013/08/tightlight-automatic-3d-mapping-for-anything-touchdesigner-arduino/) 
   - [Structured Light](http://en.wikipedia.org/wiki/Structured-light_3D_scanner)
@@ -131,61 +119,60 @@ Any software is usable if it can create, distort, and texture geometry and/or fl
     
 ====
 
-## Day 1, Aug 19 2014, 6-9pm 
+## Day 1
 
 ### Quad Mapping
 
-In its simplest form, the light cast from a typical project is typically a rectangle. 
-
-A straightforward way to map graphics to a surface is to draw to a quad, and "corner pin" the quad to match the perspective of the projected image.
-
-Using this hand-mapping technique, we can draw a series of rectangles that are hand-mapped onto the scene. This is great for:
+In its purest form, the light cast from a typical projector is a rectangle. Additionally, most content built for screens are rectangles. Therefore, a straightforward method of mapping graphics to a surface is to draw it in a quad, and "corner pin" the quad to match the perspective of the projected image. Using this hand-mapping technique, we can draw a series of rectangles that are aligned onto a space or object. This is great for:
     
-  - Simple Shapes
-  - Images
-  - Video
+  - Existing Images
+  - Existing Videos
+  - Emulation of Multiple Displays
+  - Placing "displays" of content where ever you like
 
-#### Processing  
+#### Using Processing  
 
-  [Marcin Ignac](http://marcinignac.com) has an example for Processing, aptly named [Projected Quads]([Projected Quads](http://marcinignac.com/blog/projectedquads-source-code/). Try putting your own graphics in Processing's draw loop, and modifying the projected quads to match an object.
+In the examples/ folder, you will find a few Processing sketches. One of which is an example that uses Projected Quads, based on a processing sketch by [Marcin Ignac](http://marcinignac.com/blog/projectedquads-source-code/). Navigate to the examples/ folder in this repo and open ProjectedQuadsGLShaders, for example. 
 
-  [Example for Processing](http://marcinignac.com/blog/projectedquads-source-code/ProjectedQuadsTest.zip)
+Features:
 
-  Key Commands:
+- Using OpenGL (hardware accellerated)
+- Live Video Textures
+- GLSL Shaders
+- Shader Uniforms are passed into the shaders- 
+- Live Shader Reloading
 
-    'd' toggle debug mode
-    'S' save settings
-    'L' load settings
-    '>' select next quad in debug mode
-    '<' select prev quad in debug mode
+Key Commands
+
+    'SPACE' toggle debug mode
+    's' save settings
+    'l' load settings
+    ',' select next quad in debug mode
+    '.' select prev quad in debug mode
     '1', '2', '3', '4' select one of selected quad's corners 
     Arrow keys (left, right, up, down) move selected corner's position (you can also use mouse for that)
 
-  [Keystone](http://keystonep5.sourceforge.net/) is a Quad Mapping Library for Processing. Install by searching for 'Keystone' from the 'Import Library' Dialogue in Processing. Keystone works by creating offscreen buffer object that can be drawn to, and then quad mapping the result.
 
-  [Example for Processing](http://keystonep5.sourceforge.net/examples/CornerPin/CornerPin.pde)
+  [Demo of this sketch in action](http://vimeo.com/110955580), as used by Stephanie Sherriff for her "White Paintings" series.
 
-    'c' toggles calbration mode
-    'l' load layout
-    's' save layout
-    
+#### Exercise
+
+Load your own content into these sketches, and quad-map the content.
+
+====
+
+## Day 2
 
 ### Mesh Mapping
 
-  By manipulating a mesh, we are effectively interleaving form and software geometry.
+  By manipulating a mesh, we are effectively interleaving form and software geometry. There is an addtional step of digitally modeling a 3D form, which can be done a variety of ways. You can use 3D modeling software, like [Sketchup](http://www.sketchup.com/) or [Rhinoceros 3D](http://www.rhino3d.com/), [Maya](http://www.autodesk.com/products/maya/overview), [Cinema4D](http://www.maxon.net/products/cinema-4d-studio/who-should-use-it.html), and etc.
+  
+Additionally there are a variety of methods to scan forms, using a depth camera, 2D camera vision, or 3D laser scanners. Even [DIY](http://makezine.com/projects/diy-3d-laser-scanner-using-arduino/) methods.
 
 #### OpenFrameworks  
   
 - [Mesh Mapping Example in OpenFrameworks](https://github.com/quilime/of-meshMappingExample)
 - [Instructable](http://www.instructables.com/id/Projection-Mapped-Sculpture-with-OpenFrameworks-an/)
-
-
-
-====
-
-
-## Day 2, Aug 21 2014, 6-9pm 
-
 
 ### Computer Vision
 
@@ -195,9 +182,7 @@ Computer Vision techniques use matrix transformations to approzimate focal disto
 
 Mapamok is a module of ProCamToolkit used for for exploring projection mapping. It includes features for matching geometry to space using camera vision, rapid prototying with GLSL Shaders, and camera calibration tools. 
 
-
-
-### Manual Calibrated Optical Mapping with Mapamok
+### Optical Mapping with Mapamok
 
   [Download Mapamok](https://github.com/YCAMInterlab/ProCamToolkit/downloads)
 
@@ -205,9 +190,13 @@ Mapamok is a module of ProCamToolkit used for for exploring projection mapping. 
 
   Then, follow along with the [Mapamok Tutorial](https://github.com/YCAMInterlab/ProCamToolkit/wiki/mapamok-(English).
   
+#### Exercise
+
+Model 3D wirefrem, and align it to a physical shape via projection. Choose a simple elements such as a corner, or a window, or a doorway. Deconstruct your shape down to its component parts and try to use modeling primitives in a modular way.
+  
 ====
 
-## Day 3, Aug 23 2014, 12-6pm
+## Day 3
 
 ### Projectors
 
@@ -270,40 +259,14 @@ Cons:
 
 Projector References:
 
-
 - http://www.projectorcentral.com/
 - http://www.theprojectorpros.com/learn-s-learn-p-theater_dlp_vs_lcd_vs_lcos.htm
 - http://www.cnet.com/news/dlp-vs-lcd-vs-lcos-projector-tech-pros-and-cons/
 
+#### In-Class Lab
 
-
-### Workshop: Quad Mapping with Processing (OpenGL)
-
-Navigate to the examples/ folder in this repo and open ProjectedQuadsGLShaders example. This example is based on the Quad Mapping tutorial from the first day, but includes Video and GLSL Shaders.
-
-Added Features
-
-- Ported to OpenGL
-- Live Video Textures
-- GLSL Shaders
-- Shader Uniforms are passed into the shaders- 
-- Live Shader Reloading
-
-Updated Key Commands
-
-    'SPACE' toggle debug mode
-    's' save settings
-    'l' load settings
-    ',' select next quad in debug mode
-    '.' select prev quad in debug mode
-    '1', '2', '3', '4' select one of selected quad's corners 
-    Arrow keys (left, right, up, down) move selected corner's position (you can also use mouse for that)
-
-
-### ***CLASS CHALLENGE!  . . .***
-
-  - Use the toolkit of your choice to map the theater
   - Consider which architectural elements in the theater you want to map
+  - Use the toolkit of your choice to map the element
   - Use mesh mapping, quad mapping, CV methods, mapamok, or combination.
-  - Balance your the time spent modeling, content, installation, calibration
+  - Balance your the time spent modeling, content, calibration
   - Group work is encouraged! Divide up tasks, share amongst teams. 
