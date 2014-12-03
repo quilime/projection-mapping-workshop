@@ -88,6 +88,7 @@ void setup() {
   quads.getQuad(4).setTexture(camShaderGfx);
   quads.getQuad(4).setMirrored(true);
   
+  quads.load(configFile);
 }
 
 void draw() {  
