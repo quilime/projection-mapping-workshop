@@ -190,7 +190,7 @@ Mapamok is a module of ProCamToolkit used for for exploring projection mapping. 
 
   Then, follow along with the [Mapamok Tutorial](https://github.com/YCAMInterlab/ProCamToolkit/wiki/mapamok-(English).
   
-  The code of Mapamok has been ported to Touch Designer in [CamSchnappr](https://www.derivative.ca/Forum/viewtopic.php?f=22&t=4225)
+  The concept of Mapamok has been ported to Touch Designer with [CamSchnappr](https://www.derivative.ca/Forum/viewtopic.php?f=22&t=4225)
   
 #### Exercise
 
