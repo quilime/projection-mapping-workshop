@@ -190,9 +190,11 @@ Mapamok is a module of ProCamToolkit used for for exploring projection mapping. 
 
   Then, follow along with the [Mapamok Tutorial](https://github.com/YCAMInterlab/ProCamToolkit/wiki/mapamok-(English).
   
+  The code of Mapamok has been ported to Touch Designer in [CamSchnappr](https://www.derivative.ca/Forum/viewtopic.php?f=22&t=4225)
+  
 #### Exercise
 
-Model 3D wirefrem, and align it to a physical shape via projection. Choose a simple elements such as a corner, or a window, or a doorway. Deconstruct your shape down to its component parts and try to use modeling primitives in a modular way.
+Model 3D wireframe, and align it to a physical shape via projection. Choose a simple elements such as a corner, or a window, or a doorway. Deconstruct your shape down to its component parts and try to use modeling primitives in a modular way.
   
 ====
 
